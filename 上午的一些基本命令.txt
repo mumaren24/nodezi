@@ -1,0 +1,8 @@
+npm i 包名 -g //全局安装包
+
+npm i 包名 -D //安装到本地的开发依赖
+npm i 包名 -S //安装到本地的运行依赖
+
+npm uninstall 包名 //删除包并且删除包在package.json文件里的配置记录
+
+npm init -y //自动创建一个package.json配置文件
